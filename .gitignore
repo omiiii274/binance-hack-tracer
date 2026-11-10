@@ -1,0 +1,17 @@
+# Tracer database (large, changes every scan)
+tracer.db
+tracer.db-journal
+
+# Investigation outputs: verify and report to IC3 before publishing anything
+alerts.csv
+edges.csv
+nodes.csv
+report_for_ic3.md
+
+# Secrets
+.env
+
+# Python / macOS clutter
+__pycache__/
+*.pyc
+.DS_Store
